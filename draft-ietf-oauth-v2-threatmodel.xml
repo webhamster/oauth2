@@ -42,7 +42,7 @@
       </address>
     </author>
 
-    <date day="24" month="June" year="2012" />
+    <date day="27" month="June" year="2012" />
 
     <area>Security Area</area>
 
@@ -1572,8 +1572,7 @@
             CSRF code/ state parameter. This apparently cuts down the
             effectiveness of the attack by a factor of 2. However, if the
             HTTPS/HTTP cost ratio is higher than 2 (the cost factor is
-            estimated to be around 3.5x at <xref
-            target="ssl-latency"></xref>)
+            estimated to be around 3.5x at <xref target="ssl-latency"></xref>)
             the attacker still achieves a magnification of resource
             utilization at the expense of the authorization server.</t>
 
@@ -3397,7 +3396,7 @@
         <format target="http://www.oasis-open.org/committees/download.php/11191/sstc-gross-sec-analysis-response-01.pdf"
                 type="pdf" />
       </reference>
-	  
+
       <reference anchor="ssl-latency">
         <front>
           <title>SSL handshake latency and HTTPS optimizations</title>
@@ -3410,9 +3409,7 @@
 
         <format target="http://www.semicomplete.com/blog/geekery/ssl-latency.html"
                 type="HTML" />
-      </reference>	  
-	  
-	  
+      </reference>
     </references>
 
     <section title="Document History">
@@ -3502,12 +3499,12 @@
 
           <t>incorporated shepherd review feedback</t>
         </list></t>
-		
+
       <t>draft-ietf-oauth-v2-threatmodel-06</t>
 
       <t><list style="symbols">
           <t>incorporated AD review feedback</t>
-        </list></t>		
+        </list></t>
     </section>
   </back>
 </rfc>
